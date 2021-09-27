@@ -24,7 +24,7 @@ fn open_file() -> File {
         .write(true)
         .read(true)
         .create(true)
-        .open("/data/tmp/foobar.bin")
+        .open("/home/jethros/data/foobar.bin")
         .unwrap()
 }
 
