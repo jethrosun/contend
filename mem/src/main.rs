@@ -58,7 +58,7 @@ fn main() {
     // }
 
     // const LENGTH: usize = 10_000_000;
-    const LENGTH: usize = 10 * GB_SIZE / 16;
+    const LENGTH: usize = 25 * GB_SIZE / 16;
 
     let mut large_vec = {
         let mut v: Vec<u128> = Vec::with_capacity(LENGTH);
